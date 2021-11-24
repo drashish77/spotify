@@ -2,7 +2,7 @@
 // const accessUrl = `https://accounts.spotify.com/authorize?client_id=${spotify.client_id}&response_type=token&scope=playlist-modify-public&redirect_uri=${spotify.redirect_uri}`
 // window.location = accessUrl
 
-const clientId = 'a9cf283cd4ed4197a337970497a3e459' // Insert client ID here.
+const clientId = 'client_id' // Insert client ID here.
 const redirectUri = 'http://localhost:3000/' // Have to add this to your accepted Spotify redirect URIs on the Spotify API.
 let accessToken
 
